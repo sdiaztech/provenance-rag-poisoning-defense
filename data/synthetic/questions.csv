@@ -1,0 +1,41 @@
+qid,kind,text,reference,target,gold_doc,split
+Q01,attack,What is the MITRE ATT&CK technique ID for Browser Session Hijacking?,T1185,T1612,ATT-T1185,dev
+Q02,attack,What is the MITRE ATT&CK technique ID for BITS Jobs?,T1197,T1205,ATT-T1197,dev
+Q03,attack,What is the MITRE ATT&CK technique ID for Safe Mode Boot?,T1688,T1675,ATT-T1688,dev
+Q04,attack,What is the MITRE ATT&CK technique ID for Office Application Startup?,T1137,T1548,ATT-T1137,dev
+Q05,attack,What is the MITRE ATT&CK technique ID for Compromise Infrastructure?,T1584,T1055,ATT-T1584,dev
+Q06,attack,What is the MITRE ATT&CK technique ID for Delay Execution?,T1678,T1570,ATT-T1678,dev
+Q07,attack,What is the MITRE ATT&CK technique ID for Exfiltration Over Physical Medium?,T1052,T1210,ATT-T1052,test
+Q08,attack,What is the MITRE ATT&CK technique ID for Container and Resource Discovery?,T1613,T1667,ATT-T1613,test
+Q09,attack,What is the MITRE ATT&CK technique ID for Modify Authentication Process?,T1556,T1565,ATT-T1556,test
+Q10,attack,What is the MITRE ATT&CK technique ID for Exploitation for Credential Access?,T1212,T1219,ATT-T1212,test
+Q11,attack,What is the MITRE ATT&CK technique ID for Modify Cloud Resource Hierarchy?,T1666,T1606,ATT-T1666,test
+Q12,attack,What is the MITRE ATT&CK technique ID for Device Driver Discovery?,T1652,T1190,ATT-T1652,test
+Q13,attack,What is the MITRE ATT&CK technique ID for Exploitation for Privilege Escalation?,T1068,T1080,ATT-T1068,test
+Q14,attack,What is the MITRE ATT&CK technique ID for Transfer Data to Cloud Account?,T1537,T1123,ATT-T1537,test
+Q15,attack,What is the MITRE ATT&CK technique ID for Command and Scripting Interpreter?,T1059,T1574,ATT-T1059,test
+Q16,attack,What is the MITRE ATT&CK technique ID for Disk Wipe?,T1561,T1047,ATT-T1561,test
+Q17,attack,What is the MITRE ATT&CK technique ID for Steal or Forge Kerberos Tickets?,T1558,T1680,ATT-T1558,test
+Q18,attack,What is the MITRE ATT&CK technique ID for Data Destruction?,T1485,T1669,ATT-T1485,test
+Q19,attack,What is the MITRE ATT&CK technique ID for Rogue Domain Controller?,T1207,T1027,ATT-T1207,test
+Q20,attack,What is the MITRE ATT&CK technique ID for Inhibit System Recovery?,T1490,T1680,ATT-T1490,test
+Q21,attack,What is the MITRE ATT&CK technique ID for Data from Cloud Storage?,T1530,T1005,ATT-T1530,test
+Q22,attack,What is the MITRE ATT&CK technique ID for Forced Authentication?,T1187,T1667,ATT-T1187,test
+Q23,attack,What is the MITRE ATT&CK technique ID for Application Window Discovery?,T1010,T1114,ATT-T1010,test
+Q24,attack,What is the MITRE ATT&CK technique ID for Gather Victim Org Information?,T1591,T1648,ATT-T1591,test
+Q25,attack,What is the MITRE ATT&CK technique ID for Trusted Developer Utilities Proxy Execution?,T1127,T1648,ATT-T1127,test
+Q26,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2019-18187 (Trend Micro OfficeScan)?",2022-05-03,2022-04-01,KEV-CVE-2019-18187,dev
+Q27,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2024-9680 (Mozilla Firefox)?",2024-11-05,2025-01-27,KEV-CVE-2024-9680,dev
+Q28,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2026-55255 (Langflow Langflow)?",2026-07-10,2026-10-06,KEV-CVE-2026-55255,dev
+Q29,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2021-20022 (SonicWall SonicWall Email Security)?",2021-11-17,2021-12-19,KEV-CVE-2021-20022,dev
+Q30,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2025-47827 (IGEL IGEL OS)?",2025-11-04,2026-02-21,KEV-CVE-2025-47827,test
+Q31,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2025-59230 (Microsoft Windows)?",2025-11-04,2026-01-02,KEV-CVE-2025-59230,test
+Q32,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2022-0609 (Google Chromium Animation)?",2022-03-01,2022-06-05,KEV-CVE-2022-0609,test
+Q33,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2013-3993 (IBM InfoSphere BigInsights)?",2022-06-15,2022-10-04,KEV-CVE-2013-3993,test
+Q34,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2014-0322 (Microsoft Internet Explorer)?",2022-05-25,2022-06-18,KEV-CVE-2014-0322,test
+Q35,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2020-3566 (Cisco IOS XR)?",2022-05-03,2022-03-02,KEV-CVE-2020-3566,test
+Q36,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2023-27532 (Veeam Backup & Replication)?",2023-09-12,2023-11-30,KEV-CVE-2023-27532,test
+Q37,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2023-38606 (Apple Multiple Products)?",2023-08-16,2023-09-14,KEV-CVE-2023-38606,test
+Q38,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2008-2992 (Adobe Acrobat and Reader)?",2022-03-24,2022-07-07,KEV-CVE-2008-2992,test
+Q39,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2021-22893 (Ivanti Pulse Connect Secure)?",2022-05-03,2022-08-19,KEV-CVE-2021-22893,test
+Q40,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2026-5430 (WSO2 Multiple Products)?",2026-09-27,2027-01-15,KEV-CVE-2026-5430,test
