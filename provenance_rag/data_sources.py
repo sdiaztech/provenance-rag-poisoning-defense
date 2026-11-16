@@ -84,7 +84,7 @@ class KevCatalog(DataSource):
 
     @property
     def version(self) -> str:
-        self.table
+        self.table  # reading the file sets the catalog version
         return f"catalog version {self._catalog_version}"
 
     def _read(self) -> pd.DataFrame:

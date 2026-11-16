@@ -1,6 +1,9 @@
 """Terminal output with rich."""
 from __future__ import annotations
 
+from datetime import datetime
+from pathlib import Path
+
 import pandas as pd
 from rich import box
 from rich.console import Console
@@ -11,11 +14,20 @@ from .data_sources import DataSource
 
 
 class ConsoleReport:
-    """Prints data sources as tables."""
+    """Prints data sources as tables, and keeps a copy of everything printed so it can be saved as a log."""
 
     def __init__(self, max_chars: int = 120) -> None:
-        self.console = Console()
+        self.console = Console(record=True)
         self.max_chars = max_chars
+
+    def save_log(self, logs_dir: Path) -> Path:
+        """Saves everything printed this run as plain text: a timestamped file plus latest.txt."""
+        logs_dir.mkdir(parents=True, exist_ok=True)
+        text = self.console.export_text(clear=False)
+        path = logs_dir / f"run-{datetime.now():%Y-%m-%d_%H-%M-%S}.txt"
+        for target in (path, logs_dir / "latest.txt"):
+            target.write_text(text, encoding="utf-8")
+        return path
 
     def show_source(self, source: DataSource, rows: int = 5) -> None:
         table = source.table
@@ -30,6 +42,10 @@ class ConsoleReport:
         if note:
             self.console.print(Text(note))
         self.console.print(self._as_table(frame))
+        self.console.print()
+
+    def show_note(self, text: str, style: str = "yellow") -> None:
+        self.console.print(Text(text, style=style))
         self.console.print()
 
     def _as_table(self, frame: pd.DataFrame) -> Table:

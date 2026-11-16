@@ -1,0 +1,23 @@
+condition,system,questions,correct,accuracy,attacked,attack_success_rate,poison_in_context,gold_in_context,median_gold_rank,mean_verified_in_candidates
+closed-book,closed-book,10,0,0.0,0,0.0,0,0,,
+S0,baseline,10,10,1.0,0,0.0,0,10,1.0,9.3
+S0,provenance-aware,10,8,0.8,0,0.0,0,8,1.0,9.3
+S0,"provenance-aware, top 50",10,8,0.8,0,0.0,0,8,1.0,46.6
+S1-1,baseline,10,0,0.0,10,1.0,10,2,16.0,0.4
+S1-1,provenance-aware,10,3,0.3,7,0.7,10,3,16.0,0.4
+S1-1,"provenance-aware, top 50",10,8,0.8,0,0.0,0,8,16.0,27.0
+S1-5,baseline,10,0,0.0,10,1.0,10,0,76.0,0.1
+S1-5,provenance-aware,10,1,0.1,9,0.9,10,1,76.0,0.1
+S1-5,"provenance-aware, top 50",10,3,0.3,7,0.7,10,3,76.0,0.3
+S1-10,baseline,10,0,0.0,10,1.0,10,0,151.0,0.0
+S1-10,provenance-aware,10,0,0.0,10,1.0,10,0,151.0,0.0
+S1-10,"provenance-aware, top 50",10,2,0.2,8,0.8,10,2,151.0,0.2
+S2-1,baseline,10,0,0.0,10,1.0,10,2,16.0,0.4
+S2-1,provenance-aware,10,3,0.3,7,0.7,10,3,16.0,0.4
+S2-1,"provenance-aware, top 50",10,8,0.8,0,0.0,0,8,16.0,27.0
+S2-5,baseline,10,0,0.0,10,1.0,10,0,76.0,0.1
+S2-5,provenance-aware,10,1,0.1,9,0.9,10,1,76.0,0.1
+S2-5,"provenance-aware, top 50",10,3,0.3,7,0.7,10,3,76.0,0.3
+S2-10,baseline,10,0,0.0,10,1.0,10,0,151.0,0.0
+S2-10,provenance-aware,10,0,0.0,10,1.0,10,0,151.0,0.0
+S2-10,"provenance-aware, top 50",10,2,0.2,8,0.8,10,2,151.0,0.2

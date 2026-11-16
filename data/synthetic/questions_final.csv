@@ -1,0 +1,61 @@
+qid,kind,text,reference,target,gold_doc,split,gold_verified
+Q201,attack,What is the MITRE ATT&CK technique ID for Prevent Command History Logging?,T1690,T1046,ATT-T1690,final,True
+Q202,attack,What is the MITRE ATT&CK technique ID for Deobfuscate/Decode Files or Information?,T1140,T1696,ATT-T1140,final,True
+Q203,attack,What is the MITRE ATT&CK technique ID for Acquire Infrastructure?,T1583,T1667,ATT-T1583,final,False
+Q204,attack,What is the MITRE ATT&CK technique ID for Input Injection?,T1674,T1205,ATT-T1674,final,True
+Q205,attack,What is the MITRE ATT&CK technique ID for Compromise Host Software Binary?,T1554,T1210,ATT-T1554,final,True
+Q206,attack,What is the MITRE ATT&CK technique ID for Virtual Machine Discovery?,T1673,T1574,ATT-T1673,final,True
+Q207,attack,What is the MITRE ATT&CK technique ID for Data Transfer Size Limits?,T1030,T1040,ATT-T1030,final,True
+Q208,attack,What is the MITRE ATT&CK technique ID for Social Engineering?,T1684,T1667,ATT-T1684,final,True
+Q209,attack,What is the MITRE ATT&CK technique ID for Pre-OS Boot?,T1542,T1018,ATT-T1542,final,True
+Q210,attack,What is the MITRE ATT&CK technique ID for Modify Registry?,T1112,T1055,ATT-T1112,final,True
+Q211,attack,What is the MITRE ATT&CK technique ID for Encrypted Channel?,T1573,T1005,ATT-T1573,final,True
+Q212,attack,What is the MITRE ATT&CK technique ID for Data Obfuscation?,T1001,T1210,ATT-T1001,final,False
+Q213,attack,What is the MITRE ATT&CK technique ID for Exclusive Control?,T1668,T1696,ATT-T1668,final,True
+Q214,attack,What is the MITRE ATT&CK technique ID for Event Triggered Execution?,T1546,T1123,ATT-T1546,final,True
+Q215,attack,What is the MITRE ATT&CK technique ID for Remote Services?,T1021,T1675,ATT-T1021,final,True
+Q216,attack,What is the MITRE ATT&CK technique ID for Query Public AI Services?,T1682,T1205,ATT-T1682,final,False
+Q217,attack,What is the MITRE ATT&CK technique ID for Data Staged?,T1074,T1219,ATT-T1074,final,True
+Q218,attack,What is the MITRE ATT&CK technique ID for Poisoned Pipeline Execution?,T1677,T1055,ATT-T1677,final,False
+Q219,attack,What is the MITRE ATT&CK technique ID for Direct Volume Access?,T1006,T1219,ATT-T1006,final,True
+Q220,attack,What is the MITRE ATT&CK technique ID for Password Policy Discovery?,T1201,T1027,ATT-T1201,final,True
+Q221,attack,What is the MITRE ATT&CK technique ID for Software Extensions?,T1176,T1018,ATT-T1176,final,True
+Q222,attack,What is the MITRE ATT&CK technique ID for File and Directory Permissions Modification?,T1222,T1123,ATT-T1222,final,True
+Q223,attack,What is the MITRE ATT&CK technique ID for Disable or Modify System Firewall?,T1686,T1667,ATT-T1686,final,True
+Q224,attack,What is the MITRE ATT&CK technique ID for Clipboard Data?,T1115,T1205,ATT-T1115,final,True
+Q225,attack,What is the MITRE ATT&CK technique ID for Video Capture?,T1125,T1548,ATT-T1125,final,True
+Q226,attack,What is the MITRE ATT&CK technique ID for Gather Victim Network Information?,T1590,T1565,ATT-T1590,final,True
+Q227,attack,What is the MITRE ATT&CK technique ID for Indirect Prompt Injection?,T1698,T1606,ATT-T1698,final,False
+Q228,attack,What is the MITRE ATT&CK technique ID for Establish Accounts?,T1585,T1018,ATT-T1585,final,False
+Q229,attack,What is the MITRE ATT&CK technique ID for Boot or Logon Autostart Execution?,T1547,T1548,ATT-T1547,final,False
+Q230,attack,What is the MITRE ATT&CK technique ID for System Service Discovery?,T1007,T1680,ATT-T1007,final,True
+Q231,attack,What is the MITRE ATT&CK technique ID for Subvert Trust Controls?,T1553,T1190,ATT-T1553,final,False
+Q232,attack,What is the MITRE ATT&CK technique ID for Plist File Modification?,T1647,T1566,ATT-T1647,final,True
+Q233,attack,What is the MITRE ATT&CK technique ID for Unused/Unsupported Cloud Regions?,T1535,T1566,ATT-T1535,final,False
+Q234,attack,What is the MITRE ATT&CK technique ID for Input Capture?,T1056,T1005,ATT-T1056,final,True
+Q235,attack,What is the MITRE ATT&CK technique ID for Search Victim-Owned Websites?,T1594,T1205,ATT-T1594,final,False
+Q236,attack,What is the MITRE ATT&CK technique ID for Hardware Additions?,T1200,T1606,ATT-T1200,final,True
+Q237,attack,What is the MITRE ATT&CK technique ID for Gather Victim Host Information?,T1592,T1005,ATT-T1592,final,True
+Q238,attack,What is the MITRE ATT&CK technique ID for Brute Force?,T1110,T1568,ATT-T1110,final,True
+Q239,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2026-20128 (Cisco Catalyst SD-WAN Manager)?",2026-04-23,2026-05-18,KEV-CVE-2026-20128,final,True
+Q240,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2024-20399 (Cisco NX-OS)?",2024-07-23,2024-09-12,KEV-CVE-2024-20399,final,False
+Q241,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2016-6367 (Cisco Adaptive Security Appliance (ASA))?",2022-06-14,2022-09-10,KEV-CVE-2016-6367,final,True
+Q242,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2022-22071 (Qualcomm Multiple Chipsets)?",2023-12-26,2024-03-18,KEV-CVE-2022-22071,final,False
+Q243,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2017-12235 (Cisco IOS software)?",2022-03-24,2022-06-28,KEV-CVE-2017-12235,final,True
+Q244,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2022-3038 (Google Chromium Network Service)?",2023-04-20,2023-07-12,KEV-CVE-2022-3038,final,True
+Q245,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2025-58360 (OSGeo GeoServer)?",2026-01-01,2026-04-19,KEV-CVE-2025-58360,final,True
+Q246,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2022-47966 (Zoho ManageEngine)?",2023-02-13,2023-06-11,KEV-CVE-2022-47966,final,True
+Q247,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2024-48248 (NAKIVO Backup and Replication)?",2025-04-09,2025-07-29,KEV-CVE-2024-48248,final,True
+Q248,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2025-11371 (Gladinet CentreStack and Triofox)?",2025-11-25,2026-03-04,KEV-CVE-2025-11371,final,True
+Q249,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2021-30666 (Apple iOS)?",2021-11-17,2022-01-25,KEV-CVE-2021-30666,final,True
+Q250,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2014-1776 (Microsoft Internet Explorer)?",2022-07-28,2022-09-27,KEV-CVE-2014-1776,final,True
+Q251,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2021-28799 (QNAP Network Attached Storage (NAS))?",2022-04-21,2022-08-06,KEV-CVE-2021-28799,final,False
+Q252,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2026-82329 (JFrog Artifactory)?",2026-09-05,2026-12-20,KEV-CVE-2026-82329,final,True
+Q253,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2024-43451 (Microsoft Windows)?",2024-12-03,2025-03-08,KEV-CVE-2024-43451,final,True
+Q254,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2020-3452 (Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD))?",2022-05-03,2022-01-04,KEV-CVE-2020-3452,final,True
+Q255,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2025-10585 (Google Chromium V8)?",2025-10-14,2026-01-24,KEV-CVE-2025-10585,final,False
+Q256,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2022-39197 (Fortra Cobalt Strike)?",2023-04-20,2023-05-15,KEV-CVE-2022-39197,final,True
+Q257,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2026-23760 (SmarterTools SmarterMail)?",2026-02-16,2026-05-23,KEV-CVE-2026-23760,final,False
+Q258,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2012-4681 (Oracle Java SE)?",2022-03-24,2022-04-16,KEV-CVE-2012-4681,final,False
+Q259,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2023-36036 (Microsoft Windows)?",2023-12-05,2024-02-18,KEV-CVE-2023-36036,final,True
+Q260,kev,"According to the CISA Known Exploited Vulnerabilities catalog, what is the remediation due date for CVE-2026-53266 (Linux Kernel)?",2026-09-21,2027-01-18,KEV-CVE-2026-53266,final,True

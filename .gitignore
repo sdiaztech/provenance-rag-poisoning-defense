@@ -8,6 +8,15 @@ venv/
 # macOS
 .DS_Store
 
+# Local settings with the JupyterHub token (never published)
+.env
+
+# Run logs (they show poisoned passages)
+logs/
+
+# Cache of raw model replies (rebuilt by running the experiment)
+results/replies.jsonl
+
 # Poisoned passages (never published)
 private/
 data/synthetic/poisoned_passages.csv

@@ -15,8 +15,16 @@ class HashManifest:
         self._fingerprints = frozenset(fingerprints)
 
     @classmethod
-    def from_corpus(cls, corpus: Corpus) -> HashManifest:
-        return cls(p.sha256 for p in corpus.passages)
+    def from_corpus(cls, corpus: Corpus, held_out: Iterable[str] = ()) -> HashManifest:
+        """Fingerprints every corpus passage except those whose doc_id is in held_out.
+
+        Held-out passages are legitimate but unverified, like real content published after the manifest was signed.
+        They let the experiment measure what deprioritizing unverified passages costs.
+        """
+        held_out = set(held_out)
+        unknown = held_out - {p.doc_id for p in corpus.passages}
+        assert not unknown, f"held-out passages not in the corpus: {sorted(unknown)}"
+        return cls(p.sha256 for p in corpus.passages if p.doc_id not in held_out)
 
     def is_verified(self, text: str) -> bool:
         return sha256(text) in self._fingerprints
